@@ -7,13 +7,13 @@ const person = document.getElementById('personList');
 const discount = document.getElementById('discountList');
 const agree = document.getElementById('agree');
 
-function bigImg() {
-    image.src = 'https://mehedihassin.github.io/assignment3/image/mehedi.jpg';
-}
-
-function normalImg() {
-    image.src = './image/logo_1.png';
-}
+function hover(element) {
+    element.setAttribute('src', './image/mehedi.jpg');
+  }
+  
+  function unhover(element) {
+    element.setAttribute('src', './image/logo_1.png');
+  }
 function changeName(value) {
     name.textContent = value;
 }
