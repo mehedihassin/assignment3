@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 1100px;
+    margin: 7rem auto;
+}
+section{
+    margin-top: 3rem;
+}
+ img{
+    width: 100%;
+    height: 20rem;
+}
+.fifa-detiles{
+    margin-top: 1rem;
+}
+.fifa-detiles h2,p{
+    margin-top: 0.7rem;
+}
+.destination{
+    margin-top: 1rem;
+}
+.destination h3{
+    margin-top: 1rem;
+}
+.destination ul{
+    padding: 2rem;
+}
+.table-section{
+    margin-top: 5rem;
+}
+.frist-tablel{
+    width: 700px;
+    margin: 0 auto;
+
+}
+.frist-tablel table{
+    width: 100%;
+}
+.nth-table {
+    border-collapse: collapse;
+    border: 1px solid #400040;
+  }
+ .nth-table tr:nth-child(even){
+        background: #eccb1063;
+        
+    }
+.nth-table th{
+    border: 1px solid #460046;
+    color: #000;
+    padding:13px;
+    background-color:#ffa600;
+  }
+.nth-table td{
+    border: 1px solid #000;
+    color: #002F5E;
+    padding:12px;
+    width:90px;
+    text-align: center;
+  }
+  .second-tablel{
+    width: 800px;
+    margin: 0 auto;
+    margin-top: 4rem;
+
+}
+.table  {
+    width: 100%;
+  }
+  .table  th,td{
+    border: 1px solid rgb(55, 118, 253);
+  }
+  .list{
+      margin-left: 2rem;
+  }
+  .list ul{
+      margin-left: 3rem;
+  }
+  form{
+      padding: 2rem;
+  }
+  form > div{
+    margin-top: 1rem;
+}
+button{
+    margin-top: 1rem;
+}

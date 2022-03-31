@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mehedi Hassan Assignment</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+  <div class="container">
+    <section>
+      <div>
+        <img id="image" onmouseover="bigImg()" onmouseout="normalImg()" src="./image/logo_1.png" alt="" />
+      </div>
+      <h1 style="text-decoration: underline">Forms:</h1>
+      <form action="">
+        <div>
+          <label for="name">Full Name</label>
+          <br />
+          <input type="text" name="fullname" id="name" placeholder="type your full name"
+            oninput="changeName(this.value)" />
+        </div>
+        <div>
+          <label for="email">Email Address</label>
+          <br />
+          <input type="email" name="email" id="email" placeholder="type your email Address"
+            oninput="changeEmail(this.value)" />
+        </div>
+        <div>
+          <label for="email">Select Tour</label>
+          <br />
+
+          <select name="" id="" onchange="changeTour(this.value)">
+            <option value="dhaka">Dhaka</option>
+            <option value="rajshahi">Rajshahi</option>
+            <option value="rangpur">Rangpur</option>
+          </select>
+        </div>
+        <div>
+          <label for="date">Arrival Date</label>
+          <br />
+          <input type="date" name="date" id="date" onchange="changeDate(this.value)" />
+        </div>
+        <div>
+          <label for="number">Number of Person</label>
+          <br />
+          <input type="text" name="number" id="number" placeholder="Type number of person"
+            oninput="changePersonNumber(this.value)" />
+        </div>
+        <div>
+          <p>Whot you Want to arrive</p>
+          <label for="boading">Boading</label>
+
+          <input type="checkbox" id="boading" />
+          <br />
+          <label for="suffering">Suffering</label>
+
+          <input type="checkbox" id="suffering" />
+        </div>
+        <div>
+          <label for="cupon">Discount Cupon Code</label>
+          <br />
+          <input type="text" name="cupon" id="cupon" placeholder="Type Your Cupon Code"
+            oninput="changeDiscount(this.value)" />
+        </div>
+        <div>
+          <p>Trams and Condition</p>
+
+
+          <input type="radio" id="agree" name="trams" onchange="changeAgree(this.value)" value="agree" />  
+          <label for="agree">i Agree</label>
+          <input type="radio" id="disagree" name="trams" value="disagree" />  
+          <label for="disagree">i am not Agree</label>
+        </div>
+        <button>Complete all input</button>
+      </form>
+      <div>
+        <ul>
+          <li id="nameList"></li>
+          <li id="emailList"></li>
+          <li id="tourList"></li>
+          <li id="dateLIst"></li>
+          <li id="personList"></li>
+          <li id="discountList"></li>
+          <li id="agree"></li>
+        </ul>
+      </div>
+
+    </section>
+  </div>
+  <script src="./script.js"></script>
+</body>
+
+</html>
