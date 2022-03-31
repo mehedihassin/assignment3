@@ -8,7 +8,7 @@ const discount = document.getElementById('discountList');
 const agree = document.getElementById('agree');
 
 function bigImg() {
-    image.src = './image/mehedi.jpg';
+    image.src = 'https://mehedihassin.github.io/assignment3/image/mehedi.jpg';
 }
 
 function normalImg() {
